@@ -89,6 +89,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_equal,   setgaps, 
       {.i = +1} },
 	{ MODKEY|ShiftMask, 		XK_equal,   setgaps, 	   {.i = 0 } },
+	{ 0,    PrintScreenDWM,      spawn,          {SCHMD("flameshot gui")} },
 	{ MODKEY,			XK_comma, shiftview,	   {.i = -1}  },
 	{ MODKEY,			XK_semicolon, shiftview,   {.i = +1}  },
 	// { MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
